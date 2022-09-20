@@ -80,6 +80,11 @@ inquirer
             message: 'Enter your Contributing members',
         },
         {
+            type: 'input',
+            name: 'Installation',
+            message: 'How to install the program',
+        },
+        {
             type: "list",
             name: "License",
             message: "Chose the appropriate license for this project: ",
